@@ -1,0 +1,117 @@
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+
+ * {
+
+     padding: 0%;
+ }
+
+ body {
+     font-family: 'Red Hat Display', sans-serif;
+     display: flex;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url(/images/pattern-background-desktop.svg);
+ }
+
+ .card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+ }
+
+
+ .alin {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .container {
+     width: 449px;
+     height: 698px;
+     border-radius: 20px;
+     background-color: white;
+     margin-top: 101px;
+ }
+
+ .card .titulo {
+     margin-top: 58px;
+     text-align: center;
+     margin-bottom: 32px;
+ }
+
+ .card .des {
+     text-align: center;
+     font-size: 16px;
+     color: black;
+     margin-left: 85px;
+     margin-right: 85px;
+     font-weight: 500;
+
+ }
+
+ .bloco1 {
+     border-radius: 20px;
+ }
+.container .card .price{
+    width: 357px;
+    height: 91px;
+    background: #EEEFF2;
+    
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+}
+.price .anu{
+    flex-direction: column;
+    margin-left: 20px;
+    display: flex;
+    
+    
+}
+.price .des3{
+    margin-left: 25px;
+    text-decoration: underline;
+    color: purple;
+}
+.price .mus{
+    margin-left: 20px;
+}
+.card .conf{
+    margin-top:26px ;
+    margin-bottom: 36px;
+    width: 353px;
+    height: 50px;
+    background-color: #493CE0;
+    color: white;
+    font-weight: 700;
+    border-radius:8px;
+    border: solid 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+
+}
+.card .can{
+   margin-bottom: 46px;
+}
+.card .des1{
+    font-weight: 700;
+}
+.card .des2{
+    font-weight: 100;
+    color: gray;
+}
+.card .des{
+    color: gray;
+}
+.card .des3{
+    margin-left: 80px;
+}
+.bloco1 .img1{
+    border-radius: 15px;
+}
